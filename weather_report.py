@@ -128,3 +128,5 @@ def weather_report(this_city):
     send_weather(access_token, weather)
 
 
+if __name__ == '__main__':
+    weather_report("南京")   # 直接指定南京
