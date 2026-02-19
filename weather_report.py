@@ -128,6 +128,3 @@ def weather_report(this_city):
     send_weather(access_token, weather)
 
 
-
-if __name__ == '__main__':
-    weather_report("淄博")
